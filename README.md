@@ -6,10 +6,11 @@ Attached is a DLL sideloading process that functions if you would like to delete
 
 Run like so:
 ```
-.\deleter.exe "C:\filepath.exe"
+.\poc.exe "C:\filepath.exe"
 ```
 
 
 If you want to delete a dll and achieve LPE all within the IObit process, then delete ProductNews2.dll in the Iobit malware fighter folder. 
 
-Then compile the code in proxied.cpp as x86, and place it in your systems path. You can change the command to anything. Make sure the temporary dll included in releases is also added to path. 
+Then compile the code in proxied.cpp as x86, and place it in your systems path, located at `C:\users\username\Appdata\local\Microsoft\WindowsApps`
+by default. You can change the command to anything. Make sure the temporary dll included in releases is also added to path. 
