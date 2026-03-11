@@ -12,9 +12,9 @@ Attached is a DLL sideloading process that functions if you would like to delete
 
 The program is called proxied.cpp and is in the root of this repo. 
 
-“C:\Program Files (x86)\IObit\IObit Malware Fighter\ProductNews2.dll” is the location of that dll. 
-
-If you want to delete a dll and achieve LPE all within the IObit process, then delete ProductNews2.dll in the Iobit malware fighter folder. 
+“C:\Program Files (x86)\IObit\IObit Malware Fighter\ProductNews2.dll” is the location of that dll. you must delete it.
 
 Then compile the code in proxied.cpp as x86, and place it in your systems path, located at `C:\users\username\Appdata\local\Microsoft\WindowsApps`
-by default. You can change the command to anything. Make sure the temporary dll included in releases is also added to path. 
+by default. Name the dll ProductNews2. You can change the command to anything. Make sure the temporary dll included in releases is also added to path. 
+
+The temporary dll is included in releases. It was generated with https://github.com/Flangvik/SharpDllProxy
