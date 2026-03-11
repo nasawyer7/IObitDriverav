@@ -10,6 +10,8 @@ Run like so:
 
 Attached is a DLL sideloading process that functions if you would like to delete the ProductNews2.dll in iobit's program files. If not, just run the program.
 
+The program is called proxied.cpp and is in the root of this repo. 
+
 “C:\Program Files (x86)\IObit\IObit Malware Fighter\ProductNews2.dll” is the location of that dll. 
 
 If you want to delete a dll and achieve LPE all within the IObit process, then delete ProductNews2.dll in the Iobit malware fighter folder. 
