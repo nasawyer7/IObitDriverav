@@ -2,7 +2,7 @@
 These are functional and live with current versions
 
 Writup: https://nathan2.com/files/iobit.pdf
-Iobit did not pay me, more info here:  https://nathan2.com/posts/iobit/ 
+Overall info:  https://nathan2.com/posts/iobit/ 
 
 
 I created this without knowing about the previous issues with this same vulnerability. This is a new CVE that bypasses the patch that IOBit tried to do. The patch was so bad, read my blog linked in the top right to see.
